@@ -46,8 +46,26 @@ function ParticipantList(props){
         }
     ];
 
-const list = participants.map(person => <Participant key={person.id} name={person.name} avatar={person.avatar} inSession={person.inSession} onStage={person.onStage} />)
+const list = participants.sort(function compare(a,b){
+    if(a.inSession<b.inSession){
+        return 1;
+    }
+    else if(a.inSession>b.inSession){
+        return -1;
+    }
+    else{
+        if(a.name>b.name){
+            return 1;
+        }
+        else if(a.name<b.name){
+            return-1;
+        }
+        return 0;
+        
 
+    }
+}).map(person => <Participant key={person.id} name={person.name} avatar={person.avatar} inSession={person.inSession} onStage={person.onStage} />)
+console.log(list);
 
 return (
     <div>

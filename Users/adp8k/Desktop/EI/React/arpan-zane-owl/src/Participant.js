@@ -5,8 +5,8 @@ function Participant(props){
         <div>
             <h2>{props.name}</h2>
             <img src={props.avatar} alt="avatar"/>
-            <p>{props.inSession.toString()}</p>
-            <p>{props.onStage.toString()}</p>
+            <p>{props.inSession ? 'In Session':''}</p>
+            <p>{props.onStage? 'On Stage':''}</p>
         </div>
     )
 }

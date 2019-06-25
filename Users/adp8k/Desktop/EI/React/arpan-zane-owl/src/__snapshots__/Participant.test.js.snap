@@ -6,7 +6,11 @@ exports[`<Participant /> renders this UI as expected 1`] = `
   <img
     alt="avatar"
   />
-  <p />
-  <p />
+  <p>
+    
+  </p>
+  <p>
+    
+  </p>
 </div>
 `;
