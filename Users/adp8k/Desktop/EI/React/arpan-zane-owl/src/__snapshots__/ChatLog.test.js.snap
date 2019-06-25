@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatLog /> renders this UI as expected 1`] = `
+<div>
+  <div>
+    <p>
+      message
+    </p>
+    <p>
+      Hello world
+    </p>
+    <p>
+      1548852646559
+    </p>
+  </div>
+  <div>
+    <p>
+      thumbs-up
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      thumbs-down
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      raise-hand
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      clap
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      join
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      leave
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      join-stage
+    </p>
+    <p />
+    <p />
+  </div>
+  <div>
+    <p>
+      leave-stage
+    </p>
+    <p />
+    <p />
+  </div>
+</div>
+`;
